@@ -22,27 +22,35 @@
 ## Как запустить проект:
 Клонировать репозиторий:
 
+```
 - git clone git@github.com:basyna/api_yamdb_colaborate.git
 - cd api_yamdb_colaborate
+```
 
 Установить и активировать виртуальное окружение:
-
-- python -m venv venv
-- source venv/Scripts/activate (Windows OS)
-
+```
+python -m venv venv
+source venv/Scripts/activate (Windows OS)
+```
 Установить необходимые зависимости requirements.txt:
 
-- pip install -r requirements.txt
+```
+pip install -r requirements.txt
+```
 
 Выполнить миграции:
 
-- python manage.py makemigrations
-- python manage.py migrate
-
+```
+python manage.py makemigrations
+python manage.py migrate
+```
 Создаем суперпользователя:
 
-- python manage.py createsuperuser
-
+```
+python manage.py createsuperuser
+```
 Запустить проект:
 
-- python manage.py runserver
+```
+python manage.py runserver
+```
