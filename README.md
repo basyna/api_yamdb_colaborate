@@ -22,7 +22,8 @@
 ## Как запустить проект:
 Клонировать репозиторий:
 
-- git clone git@github.com:Filimon4ik2/api_yamdb.git
+- git clone git@github.com:basyna/api_yamdb_colaborate.git
+- cd api_yamdb_colaborate
 
 Установить и активировать виртуальное окружение:
 
